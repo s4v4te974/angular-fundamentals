@@ -1,11 +1,14 @@
 // allow you to navigate between different pages in the modules
 import { Routes } from "@angular/router";
 import { Error404Component } from "./app/errors/404.component";
-import { EventListResolver } from "./app/event-list-resolver.component";
-import { CreateEventComponent } from "./app/events/create-events.components";
-import { EventDetailsComponent } from "./app/events/event-details/event-details.component";
-import { EventRouteActivator } from "./app/events/event-details/event-route-activator";
-import { EventsListComponent } from "./app/events/events-list.component";
+
+import {
+  EventListResolver,
+  CreateEventComponent,
+  EventDetailsComponent,
+  EventRouteActivator,
+  EventsListComponent
+} from './app/events/index'
 
 export const appRoutes:Routes = [
   // order is really importants
